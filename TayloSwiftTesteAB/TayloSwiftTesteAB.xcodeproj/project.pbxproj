@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DCEEE62A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */; };
+		99DCEEE82A184ABC00DB6A83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE72A184ABC00DB6A83 /* ContentView.swift */; };
+		99DCEEEA2A184ABD00DB6A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */; };
+		99DCEEED2A184ABD00DB6A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DCEEEC2A184ABD00DB6A83 /* Preview Assets.xcassets */; };
+		99DCEEEF2A184ABD00DB6A83 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEEE2A184ABD00DB6A83 /* Persistence.swift */; };
+		99DCEEF22A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEF02A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodeld */; };
+		99DCEEFD2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEFC2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift */; };
+		99DCEF072A184ABE00DB6A83 /* TayloSwiftTesteABUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEF062A184ABE00DB6A83 /* TayloSwiftTesteABUITests.swift */; };
+		99DCEF092A184ABE00DB6A83 /* TayloSwiftTesteABUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEF082A184ABE00DB6A83 /* TayloSwiftTesteABUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99DCEEF92A184ABD00DB6A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DCEEDA2A184ABC00DB6A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DCEEE12A184ABC00DB6A83;
+			remoteInfo = TayloSwiftTesteAB;
+		};
+		99DCEF032A184ABE00DB6A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DCEEDA2A184ABC00DB6A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DCEEE12A184ABC00DB6A83;
+			remoteInfo = TayloSwiftTesteAB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99DCEEE22A184ABC00DB6A83 /* TayloSwiftTesteAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TayloSwiftTesteAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayloSwiftTesteABApp.swift; sourceTree = "<group>"; };
+		99DCEEE72A184ABC00DB6A83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99DCEEEC2A184ABD00DB6A83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99DCEEEE2A184ABD00DB6A83 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		99DCEEF12A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TayloSwiftTesteAB.xcdatamodel; sourceTree = "<group>"; };
+		99DCEEF32A184ABD00DB6A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DCEEF82A184ABD00DB6A83 /* TayloSwiftTesteABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TayloSwiftTesteABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEEFC2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayloSwiftTesteABTests.swift; sourceTree = "<group>"; };
+		99DCEF022A184ABE00DB6A83 /* TayloSwiftTesteABUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TayloSwiftTesteABUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEF062A184ABE00DB6A83 /* TayloSwiftTesteABUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayloSwiftTesteABUITests.swift; sourceTree = "<group>"; };
+		99DCEF082A184ABE00DB6A83 /* TayloSwiftTesteABUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayloSwiftTesteABUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DCEEDF2A184ABC00DB6A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCEEF52A184ABD00DB6A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCEEFF2A184ABE00DB6A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99DCEED92A184ABC00DB6A83 = {
+			isa = PBXGroup;
+			children = (
+				99DCEEE42A184ABC00DB6A83 /* TayloSwiftTesteAB */,
+				99DCEEFB2A184ABD00DB6A83 /* TayloSwiftTesteABTests */,
+				99DCEF052A184ABE00DB6A83 /* TayloSwiftTesteABUITests */,
+				99DCEEE32A184ABC00DB6A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99DCEEE32A184ABC00DB6A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DCEEE22A184ABC00DB6A83 /* TayloSwiftTesteAB.app */,
+				99DCEEF82A184ABD00DB6A83 /* TayloSwiftTesteABTests.xctest */,
+				99DCEF022A184ABE00DB6A83 /* TayloSwiftTesteABUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DCEEE42A184ABC00DB6A83 /* TayloSwiftTesteAB */ = {
+			isa = PBXGroup;
+			children = (
+				99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */,
+				99DCEEE72A184ABC00DB6A83 /* ContentView.swift */,
+				99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */,
+				99DCEEEE2A184ABD00DB6A83 /* Persistence.swift */,
+				99DCEEF32A184ABD00DB6A83 /* Info.plist */,
+				99DCEEF02A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodeld */,
+				99DCEEEB2A184ABD00DB6A83 /* Preview Content */,
+			);
+			path = TayloSwiftTesteAB;
+			sourceTree = "<group>";
+		};
+		99DCEEEB2A184ABD00DB6A83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99DCEEEC2A184ABD00DB6A83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99DCEEFB2A184ABD00DB6A83 /* TayloSwiftTesteABTests */ = {
+			isa = PBXGroup;
+			children = (
+				99DCEEFC2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift */,
+			);
+			path = TayloSwiftTesteABTests;
+			sourceTree = "<group>";
+		};
+		99DCEF052A184ABE00DB6A83 /* TayloSwiftTesteABUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99DCEF062A184ABE00DB6A83 /* TayloSwiftTesteABUITests.swift */,
+				99DCEF082A184ABE00DB6A83 /* TayloSwiftTesteABUITestsLaunchTests.swift */,
+			);
+			path = TayloSwiftTesteABUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DCEEE12A184ABC00DB6A83 /* TayloSwiftTesteAB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DCEF0C2A184ABE00DB6A83 /* Build configuration list for PBXNativeTarget "TayloSwiftTesteAB" */;
+			buildPhases = (
+				99DCEEDE2A184ABC00DB6A83 /* Sources */,
+				99DCEEDF2A184ABC00DB6A83 /* Frameworks */,
+				99DCEEE02A184ABC00DB6A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TayloSwiftTesteAB;
+			productName = TayloSwiftTesteAB;
+			productReference = 99DCEEE22A184ABC00DB6A83 /* TayloSwiftTesteAB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99DCEEF72A184ABD00DB6A83 /* TayloSwiftTesteABTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DCEF0F2A184ABE00DB6A83 /* Build configuration list for PBXNativeTarget "TayloSwiftTesteABTests" */;
+			buildPhases = (
+				99DCEEF42A184ABD00DB6A83 /* Sources */,
+				99DCEEF52A184ABD00DB6A83 /* Frameworks */,
+				99DCEEF62A184ABD00DB6A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DCEEFA2A184ABD00DB6A83 /* PBXTargetDependency */,
+			);
+			name = TayloSwiftTesteABTests;
+			productName = TayloSwiftTesteABTests;
+			productReference = 99DCEEF82A184ABD00DB6A83 /* TayloSwiftTesteABTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99DCEF012A184ABE00DB6A83 /* TayloSwiftTesteABUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DCEF122A184ABE00DB6A83 /* Build configuration list for PBXNativeTarget "TayloSwiftTesteABUITests" */;
+			buildPhases = (
+				99DCEEFE2A184ABE00DB6A83 /* Sources */,
+				99DCEEFF2A184ABE00DB6A83 /* Frameworks */,
+				99DCEF002A184ABE00DB6A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DCEF042A184ABE00DB6A83 /* PBXTargetDependency */,
+			);
+			name = TayloSwiftTesteABUITests;
+			productName = TayloSwiftTesteABUITests;
+			productReference = 99DCEF022A184ABE00DB6A83 /* TayloSwiftTesteABUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DCEEDA2A184ABC00DB6A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					99DCEEE12A184ABC00DB6A83 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					99DCEEF72A184ABD00DB6A83 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 99DCEEE12A184ABC00DB6A83;
+					};
+					99DCEF012A184ABE00DB6A83 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 99DCEEE12A184ABC00DB6A83;
+					};
+				};
+			};
+			buildConfigurationList = 99DCEEDD2A184ABC00DB6A83 /* Build configuration list for PBXProject "TayloSwiftTesteAB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99DCEED92A184ABC00DB6A83;
+			productRefGroup = 99DCEEE32A184ABC00DB6A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DCEEE12A184ABC00DB6A83 /* TayloSwiftTesteAB */,
+				99DCEEF72A184ABD00DB6A83 /* TayloSwiftTesteABTests */,
+				99DCEF012A184ABE00DB6A83 /* TayloSwiftTesteABUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DCEEE02A184ABC00DB6A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DCEEED2A184ABD00DB6A83 /* Preview Assets.xcassets in Resources */,
+				99DCEEEA2A184ABD00DB6A83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCEEF62A184ABD00DB6A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCEF002A184ABE00DB6A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DCEEDE2A184ABC00DB6A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DCEEF22A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodeld in Sources */,
+				99DCEEEF2A184ABD00DB6A83 /* Persistence.swift in Sources */,
+				99DCEEE82A184ABC00DB6A83 /* ContentView.swift in Sources */,
+				99DCEEE62A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCEEF42A184ABD00DB6A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DCEEFD2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DCEEFE2A184ABE00DB6A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DCEF072A184ABE00DB6A83 /* TayloSwiftTesteABUITests.swift in Sources */,
+				99DCEF092A184ABE00DB6A83 /* TayloSwiftTesteABUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99DCEEFA2A184ABD00DB6A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DCEEE12A184ABC00DB6A83 /* TayloSwiftTesteAB */;
+			targetProxy = 99DCEEF92A184ABD00DB6A83 /* PBXContainerItemProxy */;
+		};
+		99DCEF042A184ABE00DB6A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DCEEE12A184ABC00DB6A83 /* TayloSwiftTesteAB */;
+			targetProxy = 99DCEF032A184ABE00DB6A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99DCEF0A2A184ABE00DB6A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99DCEF0B2A184ABE00DB6A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DCEF0D2A184ABE00DB6A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TayloSwiftTesteAB/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by-dev.GabiNamie.TayloSwiftTesteAB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99DCEF0E2A184ABE00DB6A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TayloSwiftTesteAB/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by-dev.GabiNamie.TayloSwiftTesteAB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99DCEF102A184ABE00DB6A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by-dev.GabiNamie.TayloSwiftTesteABTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TayloSwiftTesteAB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TayloSwiftTesteAB";
+			};
+			name = Debug;
+		};
+		99DCEF112A184ABE00DB6A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by-dev.GabiNamie.TayloSwiftTesteABTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TayloSwiftTesteAB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TayloSwiftTesteAB";
+			};
+			name = Release;
+		};
+		99DCEF132A184ABE00DB6A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by-dev.GabiNamie.TayloSwiftTesteABUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TayloSwiftTesteAB;
+			};
+			name = Debug;
+		};
+		99DCEF142A184ABE00DB6A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "by-dev.GabiNamie.TayloSwiftTesteABUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TayloSwiftTesteAB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DCEEDD2A184ABC00DB6A83 /* Build configuration list for PBXProject "TayloSwiftTesteAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCEF0A2A184ABE00DB6A83 /* Debug */,
+				99DCEF0B2A184ABE00DB6A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DCEF0C2A184ABE00DB6A83 /* Build configuration list for PBXNativeTarget "TayloSwiftTesteAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCEF0D2A184ABE00DB6A83 /* Debug */,
+				99DCEF0E2A184ABE00DB6A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DCEF0F2A184ABE00DB6A83 /* Build configuration list for PBXNativeTarget "TayloSwiftTesteABTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCEF102A184ABE00DB6A83 /* Debug */,
+				99DCEF112A184ABE00DB6A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DCEF122A184ABE00DB6A83 /* Build configuration list for PBXNativeTarget "TayloSwiftTesteABUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DCEF132A184ABE00DB6A83 /* Debug */,
+				99DCEF142A184ABE00DB6A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99DCEEF02A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99DCEEF12A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodel */,
+			);
+			currentVersion = 99DCEEF12A184ABD00DB6A83 /* TayloSwiftTesteAB.xcdatamodel */;
+			path = TayloSwiftTesteAB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99DCEEDA2A184ABC00DB6A83 /* Project object */;
+}

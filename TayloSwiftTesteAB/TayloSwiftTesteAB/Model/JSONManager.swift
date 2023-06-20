@@ -16,7 +16,7 @@ extension Encodable {
 }
 
 extension Decodable {
-    func decodable (data: Data) -> Self? {
+    func decodable(data: Data) -> Self? {
         let decoder = JSONDecoder()
         let decoderData = try? decoder.decode(type(of: self), from: data)
         return decoderData

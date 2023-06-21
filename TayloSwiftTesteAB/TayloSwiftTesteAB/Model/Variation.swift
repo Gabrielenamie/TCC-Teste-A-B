@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct variation: Codable{
+struct Variation: Codable{
     var idVariation: String
     var key: String
     var value: String

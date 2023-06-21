@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct music: Codable{
+struct Music: Codable, Hashable{
     var musicName: String
     var albumName: String
     var imageAlbumName: String

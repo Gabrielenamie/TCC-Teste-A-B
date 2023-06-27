@@ -9,17 +9,9 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    let musics = [
-        Music(musicName: "music", albumName: "Album", imageAlbumName: "img"),
-        Music(musicName: "music1", albumName: "Album", imageAlbumName: "img"),
-        Music(musicName: "music2", albumName: "Album", imageAlbumName: "img"),
-        Music(musicName: "music3", albumName: "Album", imageAlbumName: "img"),
-        Music(musicName: "music4", albumName: "Album", imageAlbumName: "img"),
-        Music(musicName: "music5", albumName: "Album", imageAlbumName: "img"),
-        Music(musicName: "music6", albumName: "Album", imageAlbumName: "img")
-    ]
     
     let columns = [
+        GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
@@ -28,7 +20,7 @@ struct ContentView: View {
         NavigationView {
             ScrollView{
                 LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(musics, id: \.self) { music in
+                    ForEach(Music.musicsList, id: \.self) { music in
                         NavigationLink {
                             Text("Item at \(music.musicName)")
                         } label: {

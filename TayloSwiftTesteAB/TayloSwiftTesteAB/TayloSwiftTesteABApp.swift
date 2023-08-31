@@ -11,7 +11,7 @@ import SwiftUI
 struct TayloSwiftTesteABApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

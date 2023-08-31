@@ -3,4 +3,150 @@
    uuid = "7EEA32F9-19A4-4EF3-AA84-A9D29E5EEB3C"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A5815EE-C6A5-4421-AEF2-1CB072DAAF48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/Model/VariationFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "generateVariation(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A5815EE-C6A5-4421-AEF2-1CB072DAAF48 - cd820cde28d4e062"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TayloSwiftTesteAB.VariationFactory.generateVariation(Foundation.Data) -&gt; Swift.Optional&lt;TayloSwiftTesteAB.Variation&gt;"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/Model/VariationFactory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "393">
+               </Location>
+               <Location
+                  uuid = "3A5815EE-C6A5-4421-AEF2-1CB072DAAF48 - cd820cde28d4e062"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TayloSwiftTesteAB.VariationFactory.generateVariation(Foundation.Data) -&gt; Swift.Optional&lt;TayloSwiftTesteAB.Variation&gt;"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/Model/VariationFactory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "834">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "587E3518-6880-4282-A75D-5A8C27F47AEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/Model/VariationFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "generateVariation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6FB8D3B-4ABB-485E-A64E-04A2A87FF40D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/Model/VariationFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "generateVariation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2AA8417-1573-4585-9AEB-012D9849B808"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "fecthExperimentation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "230E4B7B-A6D0-4757-B5E0-49C04010B636"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fecthExperimentation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "230E4B7B-A6D0-4757-B5E0-49C04010B636 - 3861c51e0470c2ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TayloSwiftTesteAB.HomeViewMode.fecthExperimentation() async -&gt; Swift.Bool"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "502">
+               </Location>
+               <Location
+                  uuid = "230E4B7B-A6D0-4757-B5E0-49C04010B636 - 83e3d21b3479ca2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for TayloSwiftTesteAB.HomeViewMode.fecthExperimentation() async -&gt; Swift.Bool"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "295">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -10,9 +10,11 @@
 		06CB97272A1850CD0023AA8C /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB97262A1850CD0023AA8C /* Music.swift */; };
 		06CB97292A18536B0023AA8C /* Variation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB97282A18536B0023AA8C /* Variation.swift */; };
 		06CB972B2A1853C60023AA8C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972A2A1853C60023AA8C /* Event.swift */; };
-		06CB972D2A1854C70023AA8C /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972C2A1854C70023AA8C /* JSONManager.swift */; };
+		06CB972D2A1854C70023AA8C /* VariationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972C2A1854C70023AA8C /* VariationFactory.swift */; };
+		06F3D29D2A79BF130095922E /* RequestManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3D29C2A79BF130095922E /* RequestManeger.swift */; };
+		06F3D29F2AA019790095922E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3D29E2AA019790095922E /* HomeViewModel.swift */; };
 		99DCEEE62A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */; };
-		99DCEEE82A184ABC00DB6A83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE72A184ABC00DB6A83 /* ContentView.swift */; };
+		99DCEEE82A184ABC00DB6A83 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE72A184ABC00DB6A83 /* HomeView.swift */; };
 		99DCEEEA2A184ABD00DB6A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */; };
 		99DCEEED2A184ABD00DB6A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DCEEEC2A184ABD00DB6A83 /* Preview Assets.xcassets */; };
 		99DCEEFD2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEFC2A184ABE00DB6A83 /* TayloSwiftTesteABTests.swift */; };
@@ -41,10 +43,12 @@
 		06CB97262A1850CD0023AA8C /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		06CB97282A18536B0023AA8C /* Variation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variation.swift; sourceTree = "<group>"; };
 		06CB972A2A1853C60023AA8C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		06CB972C2A1854C70023AA8C /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		06CB972C2A1854C70023AA8C /* VariationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationFactory.swift; sourceTree = "<group>"; };
+		06F3D29C2A79BF130095922E /* RequestManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManeger.swift; sourceTree = "<group>"; };
+		06F3D29E2AA019790095922E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		99DCEEE22A184ABC00DB6A83 /* TayloSwiftTesteAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TayloSwiftTesteAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayloSwiftTesteABApp.swift; sourceTree = "<group>"; };
-		99DCEEE72A184ABC00DB6A83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99DCEEE72A184ABC00DB6A83 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99DCEEEC2A184ABD00DB6A83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99DCEEF32A184ABD00DB6A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,7 +90,7 @@
 				06CB97262A1850CD0023AA8C /* Music.swift */,
 				06CB97282A18536B0023AA8C /* Variation.swift */,
 				06CB972A2A1853C60023AA8C /* Event.swift */,
-				06CB972C2A1854C70023AA8C /* JSONManager.swift */,
+				06CB972C2A1854C70023AA8C /* VariationFactory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,7 +120,9 @@
 			children = (
 				06CB97252A1850A70023AA8C /* Model */,
 				99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */,
-				99DCEEE72A184ABC00DB6A83 /* ContentView.swift */,
+				06F3D29C2A79BF130095922E /* RequestManeger.swift */,
+				06F3D29E2AA019790095922E /* HomeViewModel.swift */,
+				99DCEEE72A184ABC00DB6A83 /* HomeView.swift */,
 				99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */,
 				99DCEEF32A184ABD00DB6A83 /* Info.plist */,
 				99DCEEEB2A184ABD00DB6A83 /* Preview Content */,
@@ -280,9 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06CB97272A1850CD0023AA8C /* Music.swift in Sources */,
-				06CB972D2A1854C70023AA8C /* JSONManager.swift in Sources */,
+				06CB972D2A1854C70023AA8C /* VariationFactory.swift in Sources */,
 				06CB97292A18536B0023AA8C /* Variation.swift in Sources */,
-				99DCEEE82A184ABC00DB6A83 /* ContentView.swift in Sources */,
+				06F3D29F2AA019790095922E /* HomeViewModel.swift in Sources */,
+				99DCEEE82A184ABC00DB6A83 /* HomeView.swift in Sources */,
+				06F3D29D2A79BF130095922E /* RequestManeger.swift in Sources */,
 				06CB972B2A1853C60023AA8C /* Event.swift in Sources */,
 				99DCEEE62A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift in Sources */,
 			);

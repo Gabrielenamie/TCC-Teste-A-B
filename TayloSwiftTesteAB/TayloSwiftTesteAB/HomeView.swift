@@ -55,6 +55,12 @@ struct HomeView: View {
                         GridItem(.flexible()),
                         GridItem(.flexible())
                     ]
+                } else {
+                    columns = [
+                        GridItem(.flexible()),
+                        GridItem(.flexible()),
+                        GridItem(.flexible())
+                    ]
                 }
                 isLoading = false
             }

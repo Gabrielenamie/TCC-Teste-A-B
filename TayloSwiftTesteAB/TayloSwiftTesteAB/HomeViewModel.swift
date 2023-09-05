@@ -17,7 +17,7 @@ class HomeViewMode{
                 }
             }
         } catch {
-            print("deu ruim")
+            print("Error")
         }
         return false
     }

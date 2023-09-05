@@ -12,6 +12,7 @@ struct TayloSwiftTesteABApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .colorScheme(.dark)
         }
     }
 }

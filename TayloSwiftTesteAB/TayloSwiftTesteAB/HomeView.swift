@@ -12,36 +12,39 @@ struct HomeView: View {
     var viewModel = HomeViewMode()
     @State var isLoading = true
     @State var columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible())
+        GridItem(.flexible(), spacing: 8, alignment: .top),
+        GridItem(.flexible(), spacing: 8, alignment: .top),
+        GridItem(.flexible(), spacing: 8, alignment: .top)
     ]
 
     var body: some View {
         NavigationView {
-            if !isLoading{
-                ScrollView{
-                    LazyVGrid(columns: columns, spacing: 20) {
+            if !isLoading {
+                ScrollView {
+                    LazyVGrid(columns: columns, spacing: 16) {
                         ForEach(Music.musicsList, id: \.self) { music in
                             NavigationLink {
-                                Text("Item at \(music.musicName)")
+                                DetailsView(music: music)
                             } label: {
                                 musicCell(music: music)
                             }
                         }
                     }
+                    .navigationBarTitle("Taylor Swift", displayMode: .automatic)
+                    .padding(.vertical)
                 }
-                .padding()
+                .frame(maxHeight: 1200)
             } else {
                 Text("loading")
             }
             
-        }.task {
+        } .accentColor(Color.white)
+        .task {
             let isVaration = await viewModel.fecthExperimentation()
             if isVaration {
                 columns = [
-                    GridItem(.flexible()),
-                    GridItem(.flexible())
+                    GridItem(.flexible(), spacing: 8, alignment: .top),
+                    GridItem(.flexible(), spacing: 8, alignment: .top)
                 ]
             }
             isLoading = false
@@ -52,14 +55,14 @@ struct HomeView: View {
                 let isVaration = await viewModel.fecthExperimentation()
                 if isVaration {
                     columns = [
-                        GridItem(.flexible()),
-                        GridItem(.flexible())
+                        GridItem(.flexible(), spacing: 8, alignment: .top),
+                        GridItem(.flexible(), spacing: 8, alignment: .top)
                     ]
                 } else {
                     columns = [
-                        GridItem(.flexible()),
-                        GridItem(.flexible()),
-                        GridItem(.flexible())
+                        GridItem(.flexible(), spacing: 8, alignment: .top),
+                        GridItem(.flexible(), spacing: 8, alignment: .top),
+                        GridItem(.flexible(), spacing: 8, alignment: .top)
                     ]
                 }
                 isLoading = false
@@ -74,9 +77,13 @@ struct musicCell: View {
         VStack{
             Image(music.imageAlbumName)
                 .resizable()
-                .scaledToFill()
+                .cornerRadius(8.0)
+                .scaledToFit()
                 .clipped()
+                .padding(10)
+            
             Text(music.musicName)
+                .foregroundColor(Color.white)
         }
     }
 }

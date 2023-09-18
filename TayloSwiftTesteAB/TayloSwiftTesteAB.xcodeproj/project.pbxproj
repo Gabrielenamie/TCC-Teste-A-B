@@ -13,7 +13,6 @@
 		06CB972D2A1854C70023AA8C /* VariationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972C2A1854C70023AA8C /* VariationFactory.swift */; };
 		06F3D29D2A79BF130095922E /* RequestManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3D29C2A79BF130095922E /* RequestManeger.swift */; };
 		06F3D29F2AA019790095922E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3D29E2AA019790095922E /* HomeViewModel.swift */; };
-		99B5F0762AA6A2D1000EE672 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5F0752AA6A2D1000EE672 /* DetailsView.swift */; };
 		99DCEEE62A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */; };
 		99DCEEE82A184ABC00DB6A83 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE72A184ABC00DB6A83 /* HomeView.swift */; };
 		99DCEEEA2A184ABD00DB6A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 		06CB972C2A1854C70023AA8C /* VariationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationFactory.swift; sourceTree = "<group>"; };
 		06F3D29C2A79BF130095922E /* RequestManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManeger.swift; sourceTree = "<group>"; };
 		06F3D29E2AA019790095922E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		99B5F0752AA6A2D1000EE672 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsView.swift; path = ../../../../../DetailsView.swift; sourceTree = "<group>"; };
 		99DCEEE22A184ABC00DB6A83 /* TayloSwiftTesteAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TayloSwiftTesteAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayloSwiftTesteABApp.swift; sourceTree = "<group>"; };
 		99DCEEE72A184ABC00DB6A83 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				06F3D29C2A79BF130095922E /* RequestManeger.swift */,
 				06F3D29E2AA019790095922E /* HomeViewModel.swift */,
 				99DCEEE72A184ABC00DB6A83 /* HomeView.swift */,
-				99B5F0752AA6A2D1000EE672 /* DetailsView.swift */,
 				99DCEEE92A184ABD00DB6A83 /* Assets.xcassets */,
 				99DCEEF32A184ABD00DB6A83 /* Info.plist */,
 				99DCEEEB2A184ABD00DB6A83 /* Preview Content */,
@@ -290,7 +287,6 @@
 			files = (
 				06CB97272A1850CD0023AA8C /* Music.swift in Sources */,
 				06CB972D2A1854C70023AA8C /* VariationFactory.swift in Sources */,
-				99B5F0762AA6A2D1000EE672 /* DetailsView.swift in Sources */,
 				06CB97292A18536B0023AA8C /* Variation.swift in Sources */,
 				06F3D29F2AA019790095922E /* HomeViewModel.swift in Sources */,
 				99DCEEE82A184ABC00DB6A83 /* HomeView.swift in Sources */,

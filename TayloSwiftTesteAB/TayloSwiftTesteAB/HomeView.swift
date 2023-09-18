@@ -38,7 +38,8 @@ struct HomeView: View {
                 Text("loading")
             }
             
-        }.task {
+        } .accentColor(Color.white)
+        .task {
             let isVaration = await viewModel.fecthExperimentation()
             if isVaration {
                 columns = [

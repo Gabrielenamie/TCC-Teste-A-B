@@ -25,6 +25,14 @@ struct HomeView: View {
                         ForEach(Music.musicsList, id: \.self) { music in
                             NavigationLink {
                                 DetailsView(music: music)
+                                    .onAppear{
+                                        Task{
+                                            await viewModel.sendEvent(event: Event(action: "click", userId: "1"))
+                                            }
+                                        Task{
+                                            await viewModel.sendEvent(event: Event(action: "App time: \(AppClock.shared.getTime())", userId: "1"))
+                                        }
+                                    }
                             } label: {
                                 musicCell(music: music)
                             }
@@ -67,6 +75,9 @@ struct HomeView: View {
                 }
                 isLoading = false
             }
+        }
+        .onAppear{
+            AppClock.shared.startTime()
         }
     }
 }

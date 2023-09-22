@@ -8,6 +8,22 @@
 import SwiftUI
 
 struct DetailsView: View {
+    
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
+    var btnBack : some View { Button(action: {
+        AppClock.shared.startTime()
+        self.presentationMode.wrappedValue.dismiss()
+        }) {
+            HStack {
+                Image(systemName:"chevron.left") // set image here
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(.white)
+                Text("Go back")
+            }
+        }
+    }
+    
     var music: Music
     
     var body: some View {
@@ -32,5 +48,7 @@ struct DetailsView: View {
                     .padding(.bottom)
             }
         }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: btnBack)
     }
 }

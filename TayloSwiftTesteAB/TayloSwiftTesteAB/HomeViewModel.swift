@@ -21,4 +21,8 @@ class HomeViewMode{
         }
         return false
     }
+    
+    func sendEvent(event: Event) async{
+        await RequestManeger.send(urlString: "http://localhost:5145/Analytics", event: event)
+    }
 }

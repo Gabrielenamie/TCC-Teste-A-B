@@ -7,7 +7,6 @@
 
 import Foundation
 struct Event: Codable{
-    var idEvent: String
-    var idVariation: String
     var action: String
+    var userId: String
 }

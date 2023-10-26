@@ -6,23 +6,62 @@
 //
 
 import Foundation
+import SwiftUI
+
 class HomeViewMode{
-    func fecthExperimentation() async -> Bool{
+    
+    let local = "http://localhost:8080/"
+    let aws = "http://fnbs12-env.eba-hmcqfd2y.sa-east-1.elasticbeanstalk.com/"
+    
+    func fecthExperimentation() async -> Experimentation? {
         do{
-            let data = try await RequestManeger.get(urlString:"http://localhost:5145/AbList/2/1")
+            let data = try await RequestManeger.get(urlString:"\(local)AbList/3/3")
             if let data = data {
-                var variation = VariationFactory().generateVariation(data)
-                if let variation = variation{
-                    return variation.permission
+                var experimentation = ExperimentationFactory().generateExperimentation(data)
+                if let experimentation = experimentation{
+                    return experimentation
                 }
             }
         } catch {
             print("Error")
         }
-        return false
+        return nil
     }
     
     func sendEvent(event: Event) async{
-        await RequestManeger.send(urlString: "http://localhost:5145/Analytics", event: event)
+        await RequestManeger.send(urlString: "\(local)Analytics", event: event)
+    }
+    
+    func getColluns() async -> [GridItem] {
+        
+        var colluns = [
+            GridItem(.flexible(), spacing: 8, alignment: .top),
+            GridItem(.flexible(), spacing: 8, alignment: .top)
+        ]
+        
+        guard let features = await fecthExperimentation() else { return colluns}
+        
+        if features.getVariationValue(key: "colluns") == "3" {
+            colluns = [
+                GridItem(.flexible(), spacing: 8, alignment: .top),
+                GridItem(.flexible(), spacing: 8, alignment: .top),
+                GridItem(.flexible(), spacing: 8, alignment: .top)
+            ]
+        }
+        
+        return colluns
+    }
+    
+    func getBackgroundColor() async -> Color {
+        
+        var color = Color.black
+        
+        guard let features = await fecthExperimentation() else { return color}
+        
+        if features.getVariationValue(key: "color") == "red" {
+            color = .red
+        }
+        
+        return color
     }
 }

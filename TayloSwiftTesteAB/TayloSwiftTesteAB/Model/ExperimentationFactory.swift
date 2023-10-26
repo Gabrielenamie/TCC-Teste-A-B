@@ -7,12 +7,12 @@
 
 import Foundation
 
-class VariationFactory {
-    func generateVariation(_ data: Data) -> Variation? {
+class ExperimentationFactory {
+    func generateExperimentation(_ data: Data) -> Experimentation? {
         do {
             let response = try JSONDecoder().decode(RequestData.self, from: data)
-            let variation = response.data
-            return variation
+            let experimentation = response.data
+            return experimentation
         } catch {
             print(error.localizedDescription)
             return nil

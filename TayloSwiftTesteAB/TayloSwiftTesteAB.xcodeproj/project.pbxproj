@@ -12,7 +12,7 @@
 		06CB97272A1850CD0023AA8C /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB97262A1850CD0023AA8C /* Music.swift */; };
 		06CB97292A18536B0023AA8C /* Variation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB97282A18536B0023AA8C /* Variation.swift */; };
 		06CB972B2A1853C60023AA8C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972A2A1853C60023AA8C /* Event.swift */; };
-		06CB972D2A1854C70023AA8C /* VariationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972C2A1854C70023AA8C /* VariationFactory.swift */; };
+		06CB972D2A1854C70023AA8C /* ExperimentationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB972C2A1854C70023AA8C /* ExperimentationFactory.swift */; };
 		06F3D29D2A79BF130095922E /* RequestManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3D29C2A79BF130095922E /* RequestManeger.swift */; };
 		06F3D29F2AA019790095922E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3D29E2AA019790095922E /* HomeViewModel.swift */; };
 		99DCEEE62A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCEEE52A184ABC00DB6A83 /* TayloSwiftTesteABApp.swift */; };
@@ -47,7 +47,7 @@
 		06CB97262A1850CD0023AA8C /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		06CB97282A18536B0023AA8C /* Variation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variation.swift; sourceTree = "<group>"; };
 		06CB972A2A1853C60023AA8C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		06CB972C2A1854C70023AA8C /* VariationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationFactory.swift; sourceTree = "<group>"; };
+		06CB972C2A1854C70023AA8C /* ExperimentationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentationFactory.swift; sourceTree = "<group>"; };
 		06F3D29C2A79BF130095922E /* RequestManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManeger.swift; sourceTree = "<group>"; };
 		06F3D29E2AA019790095922E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		99DCEEE22A184ABC00DB6A83 /* TayloSwiftTesteAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TayloSwiftTesteAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +94,7 @@
 				06CB97262A1850CD0023AA8C /* Music.swift */,
 				06CB97282A18536B0023AA8C /* Variation.swift */,
 				06CB972A2A1853C60023AA8C /* Event.swift */,
-				06CB972C2A1854C70023AA8C /* VariationFactory.swift */,
+				06CB972C2A1854C70023AA8C /* ExperimentationFactory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06CB97272A1850CD0023AA8C /* Music.swift in Sources */,
-				06CB972D2A1854C70023AA8C /* VariationFactory.swift in Sources */,
+				06CB972D2A1854C70023AA8C /* ExperimentationFactory.swift in Sources */,
 				0677C1B22ABBD46F00CF9F98 /* AppClock.swift in Sources */,
 				0677C1B02ABBCD9E00CF9F98 /* DetailsView.swift in Sources */,
 				06CB97292A18536B0023AA8C /* Variation.swift in Sources */,

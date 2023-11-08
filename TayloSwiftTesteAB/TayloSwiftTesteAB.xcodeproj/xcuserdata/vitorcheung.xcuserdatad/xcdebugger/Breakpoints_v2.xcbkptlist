@@ -94,8 +94,8 @@
             filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "fecthExperimentation()"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "fecthExperimentation()"
             landmarkType = "7">
             <Locations>
@@ -146,6 +146,339 @@
                   offsetFromSymbolStart = "295">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0E43320-A7D1-4A61-9A16-E5401B78B557"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/RequestManeger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "send(urlString:event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D0E43320-A7D1-4A61-9A16-E5401B78B557 - a9cf9cf00f62d2b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static TayloSwiftTesteAB.RequestManeger.send@Sendable (urlString: Swift.String, event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/RequestManeger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1863">
+               </Location>
+               <Location
+                  uuid = "D0E43320-A7D1-4A61-9A16-E5401B78B557 - 435f7e3efade36c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static TayloSwiftTesteAB.RequestManeger.send@Sendable (urlString: Swift.String, event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/RequestManeger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+               <Location
+                  uuid = "D0E43320-A7D1-4A61-9A16-E5401B78B557 - 89a4c8dfcc6ff8cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for static TayloSwiftTesteAB.RequestManeger.send@Sendable (urlString: Swift.String, event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/RequestManeger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "425">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55C6A074-F5C4-4F25-9B60-C3BD6D883F4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/RequestManeger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "send(urlString:event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55C6A074-F5C4-4F25-9B60-C3BD6D883F4A - a9cf9cf00f62d0e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static TayloSwiftTesteAB.RequestManeger.send@Sendable (urlString: Swift.String, event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/RequestManeger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "55C6A074-F5C4-4F25-9B60-C3BD6D883F4A - a9cf9cf00f62d0e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static TayloSwiftTesteAB.RequestManeger.send@Sendable (urlString: Swift.String, event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/RequestManeger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "459">
+               </Location>
+               <Location
+                  uuid = "55C6A074-F5C4-4F25-9B60-C3BD6D883F4A - a9cf9cf00f62d0e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static TayloSwiftTesteAB.RequestManeger.send@Sendable (urlString: Swift.String, event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/RequestManeger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1366">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2D8F69F-EFB0-45D2-BE65-DB9A032D4846"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "sendEvent(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2D8F69F-EFB0-45D2-BE65-DB9A032D4846 - e074f9e9e10fceb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TayloSwiftTesteAB.HomeViewMode.sendEvent(event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "B2D8F69F-EFB0-45D2-BE65-DB9A032D4846 - e365430e181477de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for TayloSwiftTesteAB.HomeViewMode.sendEvent(event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "B2D8F69F-EFB0-45D2-BE65-DB9A032D4846 - 826941ca1ef50abe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TayloSwiftTesteAB.HomeViewMode.sendEvent(event: TayloSwiftTesteAB.Event) async -&gt; ()"
+                  moduleName = "TayloSwiftTesteAB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitorcheung/Documents/GitHub/TCC-Teste-A-B/TayloSwiftTesteAB/TayloSwiftTesteAB/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53ECD64E-C6AE-4992-A857-E660AB1524D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/RequestManeger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "send(urlString:event:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FB92BCB-A3BD-4AC2-9812-38EE2B0620CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/RequestManeger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "send(urlString:event:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92489949-815F-4AB2-8361-11623D84CC00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/AppClock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getTime()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F2A3154-7403-4BB6-A45E-CFCA93E9B76D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/AppClock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getTime()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD012DE8-AFA1-4164-9F5A-106BE5EAB7A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getColluns()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69D09AD4-4B06-4E86-8B4B-3A0D4DD962F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getColluns()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09C159AE-FBCE-42A3-BF11-5CE3284C2BFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getBackgroundColor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D35FD19F-211A-4B9B-A507-8172F9ECB123"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getBackgroundColor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B46538-C39A-4A86-9CA1-02F4798AB20A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TayloSwiftTesteAB/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

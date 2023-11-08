@@ -8,21 +8,35 @@
 import Foundation
 
 struct RequestData: Codable{
-    var correlationID: String
-    var data: Variation
+    var data: Experimentation
     
     enum CodingKeys: CodingKey {
         case data
-        case correlationID
+    }
+}
+
+struct Experimentation: Codable{
+    var id: Int
+    var features: [Variation]
+    
+    func getVariationValue(key: String) -> String{
+        return features.first { va in
+            va.key == key
+        }?.value ?? ""
+    }
+    
+    enum CodingKeys: CodingKey {
+        case id
+        case features
     }
 }
 
 struct Variation: Codable{
-    var id: Int
-    var permission: Bool
+    var key: String
+    var value: String
     
     enum CodingKeys: CodingKey {
-        case id
-        case permission
+        case key
+        case value
     }
 }

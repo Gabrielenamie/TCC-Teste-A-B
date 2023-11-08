@@ -16,6 +16,7 @@ struct HomeView: View {
         GridItem(.flexible(), spacing: 8, alignment: .top),
         GridItem(.flexible(), spacing: 8, alignment: .top)
     ]
+    @State var color: Color = .black
 
     var body: some View {
         NavigationView {
@@ -25,6 +26,15 @@ struct HomeView: View {
                         ForEach(Music.musicsList, id: \.self) { music in
                             NavigationLink {
                                 DetailsView(music: music)
+                                    .background(color)
+                                    .onAppear{
+                                        Task{
+                                            await viewModel.sendEvent(event: Event(action: "click", userId: "1"))
+                                            }
+                                        Task{
+                                            await viewModel.sendEvent(event: Event(action: "App time: \(AppClock.shared.getTime())", userId: "1"))
+                                        }
+                                    }
                             } label: {
                                 musicCell(music: music)
                             }
@@ -40,33 +50,20 @@ struct HomeView: View {
             
         } .accentColor(Color.white)
         .task {
-            let isVaration = await viewModel.fecthExperimentation()
-            if isVaration {
-                columns = [
-                    GridItem(.flexible(), spacing: 8, alignment: .top),
-                    GridItem(.flexible(), spacing: 8, alignment: .top)
-                ]
-            }
+            columns = await viewModel.getColluns()
+            color = await viewModel.getBackgroundColor()
             isLoading = false
         }
         .refreshable {
             Task{
                 isLoading = true
-                let isVaration = await viewModel.fecthExperimentation()
-                if isVaration {
-                    columns = [
-                        GridItem(.flexible(), spacing: 8, alignment: .top),
-                        GridItem(.flexible(), spacing: 8, alignment: .top)
-                    ]
-                } else {
-                    columns = [
-                        GridItem(.flexible(), spacing: 8, alignment: .top),
-                        GridItem(.flexible(), spacing: 8, alignment: .top),
-                        GridItem(.flexible(), spacing: 8, alignment: .top)
-                    ]
-                }
+                columns = await viewModel.getColluns()
+                color = await viewModel.getBackgroundColor()
                 isLoading = false
             }
+        }
+        .onAppear{
+            AppClock.shared.startTime()
         }
     }
 }

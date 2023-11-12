@@ -6,7 +6,8 @@
 //
 
 import Foundation
-class AppClock{
+
+class AppClock {
     static var shared = AppClock()
     var time: Float = 0.0
     var timer: Timer?

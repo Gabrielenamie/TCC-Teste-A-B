@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-import CoreData
 
 struct HomeView: View {
-    var viewModel = HomeViewMode()
+    var viewModel = HomeViewModel()
     @State var isLoading = true
     @State var columns = [
         GridItem(.flexible(), spacing: 8, alignment: .top),
@@ -25,8 +24,7 @@ struct HomeView: View {
                     LazyVGrid(columns: columns, spacing: 16) {
                         ForEach(Music.musicsList, id: \.self) { music in
                             NavigationLink {
-                                DetailsView(music: music)
-                                    .background(color)
+                                DetailsView(music: music, color: color)
                                     .onAppear{
                                         Task{
                                             await viewModel.sendEvent(event: Event(action: "click", userId: "1"))
@@ -45,7 +43,7 @@ struct HomeView: View {
                 }
                 .frame(maxHeight: 1200)
             } else {
-                Text("loading")
+                Text("Loading")
             }
             
         } .accentColor(Color.white)

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct Music: Codable, Hashable{
     var musicName: String
     var albumName: String

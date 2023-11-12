@@ -19,22 +19,17 @@ struct DetailsView: View {
                 Image(systemName:"chevron.left") // set image here
                 .aspectRatio(contentMode: .fit)
                 .foregroundColor(.white)
-                Text("Go back")
+                Text("Back")
             }
         }
     }
     
     var music: Music
-    
+    var color: Color
     var body: some View {
-        ZStack(alignment: .center) {
-            Image(music.imageAlbumName)
-                .resizable()
-                .ignoresSafeArea()
-                .blur(radius: 20)
-            Color.black.opacity(0.5)
-                .ignoresSafeArea()
-            
+        color
+            .ignoresSafeArea() // Ignore just for the color
+            .overlay(
             VStack(alignment: .center) {
                 Image(music.imageAlbumName)
                     .resizable()
@@ -46,8 +41,7 @@ struct DetailsView: View {
                 Text(music.albumName)
                     .font(.title3)
                     .padding(.bottom)
-            }
-        }
+            })
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: btnBack)
     }

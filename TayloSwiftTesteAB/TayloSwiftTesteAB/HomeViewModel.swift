@@ -5,10 +5,9 @@
 //  Created by Vitor Cheung on 30/08/23.
 //
 
-import Foundation
 import SwiftUI
 
-class HomeViewMode{
+class HomeViewModel {
     
     let local = "http://localhost:8080/"
     let aws = "http://fnbs12-env.eba-hmcqfd2y.sa-east-1.elasticbeanstalk.com/"
@@ -17,7 +16,7 @@ class HomeViewMode{
         do{
             let data = try await RequestManeger.get(urlString:"\(local)AbList/3/3")
             if let data = data {
-                var experimentation = ExperimentationFactory().generateExperimentation(data)
+                let experimentation = ExperimentationFactory().generateExperimentation(data)
                 if let experimentation = experimentation{
                     return experimentation
                 }
@@ -28,7 +27,7 @@ class HomeViewMode{
         return nil
     }
     
-    func sendEvent(event: Event) async{
+    func sendEvent(event: Event) async {
         await RequestManeger.send(urlString: "\(local)Analytics", event: event)
     }
     
@@ -59,7 +58,7 @@ class HomeViewMode{
         guard let features = await fecthExperimentation() else { return color}
         
         if features.getVariationValue(key: "color") == "red" {
-            color = .red
+            color = Color.red
         }
         
         return color

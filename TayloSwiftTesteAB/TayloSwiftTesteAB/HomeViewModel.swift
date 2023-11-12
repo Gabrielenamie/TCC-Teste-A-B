@@ -14,7 +14,7 @@ class HomeViewModel {
     
     func fecthExperimentation() async -> Experimentation? {
         do{
-            let data = try await RequestManeger.get(urlString:"\(local)AbList/3/3")
+            let data = try await RequestManeger.get(urlString:"\(aws)AbList/3/3")
             if let data = data {
                 let experimentation = ExperimentationFactory().generateExperimentation(data)
                 if let experimentation = experimentation{
@@ -28,7 +28,7 @@ class HomeViewModel {
     }
     
     func sendEvent(event: Event) async {
-        await RequestManeger.send(urlString: "\(local)Analytics", event: event)
+        await RequestManeger.send(urlString: "\(aws)Analytics", event: event)
     }
     
     func getColluns() async -> [GridItem] {

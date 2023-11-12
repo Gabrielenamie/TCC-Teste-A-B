@@ -53,12 +53,12 @@ class HomeViewModel {
     
     func getBackgroundColor() async -> Color {
         
-        var color = Color.black
+        var color = Color.blue
         
         guard let features = await fecthExperimentation() else { return color}
         
-        if features.getVariationValue(key: "color") == "red" {
-            color = Color.red
+        if features.getVariationValue(key: "color") == "blue" {
+            color = Color.blue
         }
         
         return color

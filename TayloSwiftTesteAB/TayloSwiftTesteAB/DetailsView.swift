@@ -18,8 +18,9 @@ struct DetailsView: View {
             HStack {
                 Image(systemName:"chevron.left") // set image here
                 .aspectRatio(contentMode: .fit)
-                .foregroundColor(.white)
+                .foregroundColor(.teal)
                 Text("Back")
+                    .foregroundColor(.teal)
             }
         }
     }
